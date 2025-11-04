@@ -20,7 +20,8 @@
 - 📙 **Product Inventory API** – Clean Architecture with Repository Pattern  
 - 🤖 **Agentic AI Projects**
   - 🧩 **AI Agent Calculator** – Autonomous agent performing context-based calculations  
-  - 🗣️ **Personal AI Assistant** – Built using Semantic Kernel for smart task handling  
+  - 🗣️ Personal AI Assistant (Jarvis) – A voice-activated assistant using Semantic Kernel. It can process voice commands, perform Google searches, and provide spoken responses. (Work in Progress)
+
 
 ---
 
@@ -47,4 +48,4 @@
 ---
 
 ## 📫 Connect With Me
- [Email](mailto:pawanpathak413@email.com)
+ [Email](mailto:prakashpathak413w@email.com)
