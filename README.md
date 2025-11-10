@@ -14,7 +14,8 @@
 ---
 
 ## 🚀 Featured Projects
-- 📘 **Student Course Management API** – CRUD operations with EF Core and JWT Authentication  
+- 📘 **Student Course Management API** – CRUD operations with EF Core and JWT Authentication
+                                       - Implementing financial-module (ongoing)  
 - 📗 **Library Management API** – Secure library system using JWT & Validation  
 - 📕 **Hospital Management API (Dapper)** – Lightweight data access with Dapper ORM  
 - 📙 **Product Inventory API** – Clean Architecture with Repository Pattern  
