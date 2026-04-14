@@ -54,7 +54,7 @@ Student and course management system with full CRUD operations, **automated fina
 
 Full-stack task management application with a .NET 9 backend API and vanilla JS frontend. Includes user authentication, task CRUD, and is **live and deployed**.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://task-management-5l8.pages.dev/login)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://lively-ground-0938a8000.7.azurestaticapps.net/login)
 <!-- REPLACE the link below with actual repo URL once public -->
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat&logo=github)](https://github.com/pawan-pathak12/TaskManagementApp)
 
