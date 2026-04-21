@@ -1,8 +1,9 @@
 # Pawan Pathak
-
 **Backend Developer — C# · ASP.NET Core · Clean Architecture · CQRS**
 
-BCA-IT student building production-style .NET backend systems with a focus on clean architecture, testable code, and real-world business logic. 1 year of hands-on .NET development and actively leveling up toward mid-level backend roles.
+BCA-IT student building production-style .NET backend systems with a focus on
+clean architecture, testable code, and real-world business logic.
+1 year of hands-on .NET development and actively growing toward a professional backend role.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pawan-pathak1/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:prakashpathak413w@email.com)
@@ -15,10 +16,10 @@ BCA-IT student building production-style .NET backend systems with a focus on cl
 |---|---|
 | **Language** | C#, SQL |
 | **Backend** | ASP.NET Core (.NET 8 / 9 / 10), REST APIs, JWT Auth (Access + Refresh Tokens) |
-| **Architecture** | Clean Architecture, CQRS + MediatR, Layered Architecture, Repository Pattern |
+| **Architecture** | Clean Architecture, CQRS + MediatR, Repository Pattern |
 | **Data Access** | Dapper, Entity Framework Core |
 | **Database** | SQL Server |
-| **Testing** | MSTest — Unit, Integration, API Tests |
+| **Testing** | xUnit · MSTest — Unit, Integration, API Tests |
 | **Tools** | Visual Studio, Rider, SSMS, Postman, Swagger, Git |
 
 ---
@@ -26,54 +27,66 @@ BCA-IT student building production-style .NET backend systems with a focus on cl
 ## Featured Projects
 
 ### 🏥 Hospital Management API
-> Clean Architecture · CQRS · Dapper · JWT
+> Clean Architecture · CQRS · MediatR · Dapper · JWT
 
-Full-featured hospital management backend built with **Clean Architecture** (Domain → Application → Business → Data layers), **CQRS with MediatR** for command/query separation, **Dapper** for high-performance data access, **AutoMapper** for DTO mapping, and **JWT authentication** with access and refresh token flow.
+Full-featured hospital management backend implementing **Clean Architecture**
+(Domain → Application → Infrastructure → API), **CQRS with MediatR**, **Dapper**
+for high-performance SQL queries, and **JWT** with access + refresh token flow.
+Includes domain business rules: appointment slot validation, double-booking prevention,
+doctor availability, and automated status updates.
 
-<!-- REPLACE the link below with actual repo URL once public -->
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat&logo=github)](https://github.com/pawan-pathak12/HospitalManagementSystem)
 
 ---
 
 ### 🎓 Student Course Management API
-> Clean Architecture · EF Core · MSTest · Financial Logic
+> Clean Architecture · EF Core · Financial Logic · Tested
 
-Student and course management system with full CRUD operations, **automated financial module** (fee calculation, payment tracking, business rules), and JWT auth. Currently being **refactored to Clean Architecture** with a proper `src/` structure and comprehensive test coverage:
+Student and course management system with full CRUD, an **automated financial module**
+(fee calculation, payment tracking, business rule enforcement), and JWT auth.
+Refactored to Clean Architecture with a `src/` structure.
+Test suite (Unit, Integration, API) maintained in a **private repo** — available on request.
 
-- ✅ Unit Tests (business logic)
-- ✅ Integration Tests (data layer)
-- ✅ API Tests (endpoint validation)
-
-<!-- REPLACE the link below with actual repo URL once public -->
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat&logo=github)](https://github.com/pawan-pathak12/StudentCourseManagementSystem)
 
 ---
 
-### ✅ Task Management App — Full Stack
-> .NET 9 · EF Core · JWT · HTML/CSS/JS
+### 🔐 ASP.NET Core OTP Auth API
+> JWT · Refresh Tokens · Email OTP · Security
 
-Full-stack task management application with a .NET 9 backend API and vanilla JS frontend. Includes user authentication, task CRUD, and is **live and deployed**.
+Secure authentication API implementing **email-based OTP verification**,
+JWT access tokens, and refresh token rotation.
+Test suite maintained in a **private repo** — available on request.
+
+[![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat&logo=github)](https://github.com/pawan-pathak12/aspnetcore-otp-auth-api)
+
+---
+
+### ✅ Task Management App — Full Stack
+> .NET 9 · EF Core · JWT · HTML/CSS/JS · Azure
+
+Full-stack task app with a .NET 9 backend and vanilla JS frontend.
+Includes user auth, task CRUD, and is **live on Azure**.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://lively-ground-0938a8000.7.azurestaticapps.net/login)
-<!-- REPLACE the link below with actual repo URL once public -->
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=flat&logo=github)](https://github.com/pawan-pathak12/TaskManagementApp)
 
 ---
 
 ## What I'm Working On Right Now
 
-- 🔧 Refactoring Student Course Management API → Clean Architecture + full MSTest coverage
-- 🔐 Implementing email-based OTP verification and real-world login flows
-- 📐 Strengthening domain modeling and separation of concerns across all projects
+- 🔧 Migrating test suites from MSTest → xUnit across all projects
+- 📐 Strengthening domain modelling and separation of concerns
+- 🔐 Expanding real-world auth flows (OTP, token revocation)
 
 ---
 
 ## Where I'm Headed Next
 
-- Docker & containerization for my APIs
-- GitHub Actions CI/CD pipelines (build → test → report)
-- Redis caching & message queues (RabbitMQ)
-- Cloud deployment (Azure)
+- 🐳 Docker & containerisation for my APIs
+- ⚙️ GitHub Actions CI/CD (build → test → deploy)
+- 🗄️ Redis caching & RabbitMQ message queues
+- ☁️ Deeper Azure deployment (App Service, pipelines)
 
 ---
 
@@ -81,4 +94,4 @@ Full-stack task management application with a .NET 9 backend API and vanilla JS 
 
 - **LinkedIn:** [pawan-pathak1](https://www.linkedin.com/in/pawan-pathak1/)
 - **Email:** prakashpathak413w@email.com
-- **Open to:** Remote internships, junior/mid .NET backend roles, freelance backend projects
+- **Open to:** Remote internships, junior .NET backend roles, freelance backend projects
